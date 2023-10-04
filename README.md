@@ -18,7 +18,7 @@ pip install mysql-connector-python
 
 1. Clonez ce référentiel sur votre machine locale en utilisant la commande suivante :
 
-git clone https://github.com/VotreNomDeCompte/connexion-mysql-python.git
+git clone https://github.com/PoPoGH/TestBDD.git
 
 2. Modifiez le fichier `connexion_mysql.py` pour mettre à jour les informations de connexion à votre base de données MySQL. Remplacez les valeurs suivantes :
 
