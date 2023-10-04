@@ -1,3 +1,5 @@
+# Test de Connexion MySQL en Python
+
 Ce projet contient un code Python simple pour tester une connexion à une base de données MySQL en utilisant le module `mysql-connector-python`. Ce code vous permettra de vérifier si vous pouvez vous connecter à votre base de données MySQL depuis votre application Python.
 
 ## Configuration requise
@@ -20,7 +22,7 @@ git clone https://github.com/VotreNomDeCompte/connexion-mysql-python.git
 
 2. Modifiez le fichier `connexion_mysql.py` pour mettre à jour les informations de connexion à votre base de données MySQL. Remplacez les valeurs suivantes :
 
-```
+```python
 host = "votre-hote"
 utilisateur = "votre-utilisateur"
 mot_de_passe = "votre-mot-de-passe"
@@ -28,11 +30,10 @@ base_de_donnees = "votre-base-de-donnees"
 Exécutez le script en utilisant la commande suivante :
 
 python connexion_mysql.py
-
 Vous devriez voir un message indiquant si la connexion à la base de données MySQL a réussi ou échoué.
 
-Contribuer
-Si vous souhaitez contribuer à ce projet, vous pouvez ouvrir une demande d'extraction (pull request) avec vos modifications / amélioration. 
+Journalisation
+Ce projet inclut désormais la journalisation des événements dans un fichier texte (log.txt). Les journaux incluent des informations sur la réussite ou l'échec de la connexion, ainsi que des détails sur l'hôte de la connexion.
 
-Licence
-Ce projet est sous licence MIT. Vous pouvez consulter le fichier LICENSE pour plus de détails.
+Contribuer
+Si vous souhaitez contribuer à ce projet, vous pouvez ouvrir une demande d'extraction (pull request) avec vos modifications/améliorations.

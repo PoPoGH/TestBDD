@@ -1,4 +1,8 @@
 import mysql.connector
+import logging
+
+# Configuration de la journalisation avec l'encodage UTF-8
+logging.basicConfig(filename='log.txt', level=logging.INFO, format='%(asctime)s - %(levelname)s: %(message)s', encoding='utf-8')
 
 # Paramètres de connexion à la base de données
 config = {
@@ -15,11 +19,14 @@ try:
 
     if connection.is_connected():
         print("Connexion réussie à la base de données MySQL")
+        logging.info(f"Connexion réussie à la base de données MySQL sur l'hôte {config['host']}")
 
         # Vous pouvez exécuter des requêtes ou effectuer d'autres opérations ici
 
 except mysql.connector.Error as e:
-    print(f"Erreur de connexion à la base de données MySQL: {e}")
+    error_message = f"Erreur de connexion à la base de données MySQL: {e}"
+    print(error_message)
+    logging.error(error_message)
 
 finally:
     # Fermez la connexion à la base de données
