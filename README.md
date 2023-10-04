@@ -27,6 +27,7 @@ host = "votre-hote"
 utilisateur = "votre-utilisateur"
 mot_de_passe = "votre-mot-de-passe"
 base_de_donnees = "votre-base-de-donnees"
+```
 Exécutez le script en utilisant la commande suivante :
 
 python connexion_mysql.py
