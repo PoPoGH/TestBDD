@@ -27,12 +27,12 @@ mot_de_passe = "votre-mot-de-passe"
 base_de_donnees = "votre-base-de-donnees"
 Exécutez le script en utilisant la commande suivante :
 
-Copy code
-python connexion_mysql.py
+python main.py
+
 Vous devriez voir un message indiquant si la connexion à la base de données MySQL a réussi ou échoué.
 
 Contribuer
-Si vous souhaitez contribuer à ce projet, vous pouvez ouvrir une demande d'extraction (pull request) avec vos modifications. Nous serions ravis de recevoir des améliorations ou des corrections de bugs.
+Si vous souhaitez contribuer à ce projet, vous pouvez ouvrir une demande d'extraction (pull request) avec vos modifications / amélioration. 
 
 Licence
 Ce projet est sous licence MIT. Vous pouvez consulter le fichier LICENSE pour plus de détails.
