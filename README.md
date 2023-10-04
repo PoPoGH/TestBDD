@@ -22,12 +22,12 @@ git clone https://github.com/PoPoGH/TestBDD.git
 
 2. Modifiez le fichier `connexion_mysql.py` pour mettre à jour les informations de connexion à votre base de données MySQL. Remplacez les valeurs suivantes :
 
-```python
 host = "votre-hote"
 utilisateur = "votre-utilisateur"
 mot_de_passe = "votre-mot-de-passe"
 base_de_donnees = "votre-base-de-donnees"
-```
+
+
 Exécutez le script en utilisant la commande suivante :
 
 python connexion_mysql.py
