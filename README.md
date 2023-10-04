@@ -27,7 +27,7 @@ mot_de_passe = "votre-mot-de-passe"
 base_de_donnees = "votre-base-de-donnees"
 Exécutez le script en utilisant la commande suivante :
 
-python main.py
+python connexion_mysql.py
 
 Vous devriez voir un message indiquant si la connexion à la base de données MySQL a réussi ou échoué.
 
